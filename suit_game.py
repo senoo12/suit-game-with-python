@@ -3,7 +3,7 @@ component_list = ['rock', 'paper', 'scissors']
 print("Hi, welcome to Suit Game")
 print("==========================")
 print(component_list)
-print("You can choose theme!")
+print("You can choose theme with a valid number 1-3!")
 user_choices = int(input("What you'll choose? "))
 if 1 <= user_choices <= 3:
     print("You choose: " + component_list[user_choices - 1])
